@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+# Visual C++ Express 2005
+Project("{C3DB1E3E-4FBD-544E-3ABE-2E56B6FF4237}") = "BrocoliPlayer", "BrocoliPlayer.vcproj", "{27F3E39A-E44C-C36F-6BB0-43C4C8005F1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F3E39A-E44C-C36F-6BB0-43C4C8005F1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27F3E39A-E44C-C36F-6BB0-43C4C8005F1A}.Debug|Win32.Build.0 = Debug|Win32
+		{27F3E39A-E44C-C36F-6BB0-43C4C8005F1A}.Release|Win32.ActiveCfg = Release|Win32
+		{27F3E39A-E44C-C36F-6BB0-43C4C8005F1A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

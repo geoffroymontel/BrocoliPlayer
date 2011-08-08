@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="mA7cm5" name="BrocoliPlayer" projectType="audioplug" version="1.0.0"
+              juceLinkage="amalg_multi" bundleIdentifier="org.brocoli.BrocoliPlayer"
+              buildVST="1" buildRTAS="0" buildAU="0" pluginName="BrocoliPlayer"
+              pluginDesc="BrocoliPlayer" pluginManufacturer="Brocoli" pluginManufacturerCode="BROC"
+              pluginCode="BRPL" pluginChannelConfigs="{0, 2}" pluginIsSynth="1"
+              pluginWantsMidiIn="1" pluginProducesMidiOut="0" pluginSilenceInIsSilenceOut="0"
+              pluginTailLength="0" pluginEditorRequiresKeys="1" pluginAUExportPrefix="BrocoliPlayerAU"
+              pluginAUViewClass="BrocoliPlayerAU_V1" pluginRTASCategory=""
+              jucerVersion="3.0.0">
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" objCExtraSuffix="LzyLH" juceFolder="..\juce"
+               vstFolder="~/SDKs/vstsdk2.4"/>
+    <XCODE_IPHONE targetFolder="Builds/iOS" objCExtraSuffix="brZ5sg" juceFolder="..\juce"
+                  vstFolder="~/SDKs/vstsdk2.4"/>
+    <MSVC6 targetFolder="Builds/MSVC6" libraryType="1" juceFolder="..\juce"
+           vstFolder="E:\dev\vstsdk2.4"/>
+    <VS2005 targetFolder="Builds/VisualStudio2005" libraryType="1" juceFolder="..\juce"
+            vstFolder="E:\dev\vstsdk2.4"/>
+    <VS2008 targetFolder="Builds/VisualStudio2008" libraryType="1" juceFolder="..\juce"
+            vstFolder="E:\dev\vstsdk2.4"/>
+    <VS2010 targetFolder="Builds/VisualStudio2010" libraryType="1" juceFolder="..\juce"
+            vstFolder="E:\dev\vstsdk2.4"/>
+  </EXPORTFORMATS>
+  <CONFIGURATIONS>
+    <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="BrocoliPlayer"
+                   osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                   binaryPath=""/>
+    <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="BrocoliPlayer"
+                   osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                   binaryPath=""/>
+  </CONFIGURATIONS>
+  <MAINGROUP id="pExnUW" name="BrocoliPlayer">
+    <GROUP id="WZ3uC" name="Source">
+      <FILE id="NeuIgm" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="nSKMO" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="TpdGrW" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="tndXr0" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled" JUCE_FORCE_DEBUG="default" JUCE_LOG_ASSERTIONS="default"
+               JUCE_ASIO="default" JUCE_WASAPI="default" JUCE_DIRECTSOUND="default"
+               JUCE_DIRECTSHOW="default" JUCE_MEDIAFOUNDATION="default" JUCE_ALSA="default"
+               JUCE_OPENGL="default" JUCE_DIRECT2D="default" JUCE_USE_FLAC="default"
+               JUCE_USE_OGGVORBIS="default" JUCE_USE_CDBURNER="default" JUCE_USE_CDREADER="default"
+               JUCE_USE_CAMERA="default" JUCE_ENABLE_REPAINT_DEBUGGING="default"
+               JUCE_USE_XINERAMA="default" JUCE_USE_XSHM="default" JUCE_USE_XRENDER="default"
+               JUCE_USE_XCURSOR="default" JUCE_PLUGINHOST_VST="default" JUCE_PLUGINHOST_AU="default"
+               JUCE_ONLY_BUILD_CORE_LIBRARY="default" JUCE_WEB_BROWSER="default"
+               JUCE_SUPPORT_CARBON="default" JUCE_CHECK_MEMORY_LEAKS="default"
+               JUCE_CATCH_UNHANDLED_EXCEPTIONS="default"/>
+</JUCERPROJECT>

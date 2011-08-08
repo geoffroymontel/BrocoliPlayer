@@ -1,0 +1,190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+		CCE160E2D998CE22342A9BBB = { isa = PBXBuildFile; fileRef = 02A0F29D751F4974043BC949; };
+		F06B54570EDA78695B736645 = { isa = PBXBuildFile; fileRef = 946A0AAD78CCD10604D431D9; };
+		186672975D08CFE741E31B71 = { isa = PBXBuildFile; fileRef = A231819D521D470BBCF437DB; };
+		B21546F78D34F0180E3AC9C1 = { isa = PBXBuildFile; fileRef = 2629DFC8362DC65A7CB0AE51; };
+		BCB2DB0B82BCC9710D436631 = { isa = PBXBuildFile; fileRef = 4E560301543BC9F87AE491CC; };
+		88ED89E3C466F89469534B49 = { isa = PBXBuildFile; fileRef = D0D9250307FA3D8AA2F28FD6; };
+		A4242F728EBC18D92114179E = { isa = PBXBuildFile; fileRef = 556DF3ECEE3A91522751B421; };
+		7A6F88B31E54AD87146A49D9 = { isa = PBXBuildFile; fileRef = C4826272EC3D5954FC762A79; };
+		4018D5769CCA0D397ADB03D3 = { isa = PBXBuildFile; fileRef = 4C7A3FB475947F448638DF71; };
+		B2DCF365029E6DBB6CE79ED8 = { isa = PBXBuildFile; fileRef = 4791701E943C4D6943609026; };
+		E0FA930C6977BC1FCA626BE7 = { isa = PBXBuildFile; fileRef = E93B4A9D9928ACB492EFD96F; };
+		B9344044CEE956359C49A73F = { isa = PBXBuildFile; fileRef = 414878433445C2B3A5448F14; };
+		B5CB50E59AA42D4DC71EEB3A = { isa = PBXBuildFile; fileRef = 8A6F414E413044E789380353; };
+		C1516176767FF455F1F32F35 = { isa = PBXBuildFile; fileRef = D3851A4A5E1CB70A5D1B87A3; };
+		CDF87117523BBA6D2BD86340 = { isa = PBXBuildFile; fileRef = 1DACD3456B073A3D31FF0AE3; };
+		02A0F29D751F4974043BC949 = { isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		946A0AAD78CCD10604D431D9 = { isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A231819D521D470BBCF437DB = { isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2629DFC8362DC65A7CB0AE51 = { isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E560301543BC9F87AE491CC = { isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D0D9250307FA3D8AA2F28FD6 = { isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		556DF3ECEE3A91522751B421 = { isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFEC2C67A779A43C00730999 = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrocoliPlayer.component; sourceTree = "BUILT_PRODUCTS_DIR"; };
+		91D09A69E890EE3BC010CC27 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "SOURCE_ROOT"; };
+		C4826272EC3D5954FC762A79 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginProcessor.cpp; path = ../../Source/PluginProcessor.cpp; sourceTree = "SOURCE_ROOT"; };
+		EFA96C7DEFC2EF15FFBBB765 = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginProcessor.h; path = ../../Source/PluginProcessor.h; sourceTree = "SOURCE_ROOT"; };
+		4C7A3FB475947F448638DF71 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginEditor.cpp; path = ../../Source/PluginEditor.cpp; sourceTree = "SOURCE_ROOT"; };
+		859F23DFE2113C0B27E66FAD = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginEditor.h; path = ../../Source/PluginEditor.h; sourceTree = "SOURCE_ROOT"; };
+		4791701E943C4D6943609026 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_VST_Wrapper.cpp"; path = "../../../juce/src/audio/plugin_client/VST/juce_VST_Wrapper.cpp"; sourceTree = "SOURCE_ROOT"; };
+		E93B4A9D9928ACB492EFD96F = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "juce_VST_Wrapper.mm"; path = "../../../juce/src/audio/plugin_client/VST/juce_VST_Wrapper.mm"; sourceTree = "SOURCE_ROOT"; };
+		756A50F3D76FCA45E078BC58 = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppConfig.h; path = ../../JuceLibraryCode/AppConfig.h; sourceTree = "SOURCE_ROOT"; };
+		3CE62790D929FEA5458430B7 = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = "SOURCE_ROOT"; };
+		414878433445C2B3A5448F14 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = JuceLibraryCode1.mm; path = ../../JuceLibraryCode/JuceLibraryCode1.mm; sourceTree = "SOURCE_ROOT"; };
+		8A6F414E413044E789380353 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = JuceLibraryCode2.mm; path = ../../JuceLibraryCode/JuceLibraryCode2.mm; sourceTree = "SOURCE_ROOT"; };
+		D3851A4A5E1CB70A5D1B87A3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = JuceLibraryCode3.mm; path = ../../JuceLibraryCode/JuceLibraryCode3.mm; sourceTree = "SOURCE_ROOT"; };
+		1DACD3456B073A3D31FF0AE3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = JuceLibraryCode4.mm; path = ../../JuceLibraryCode/JuceLibraryCode4.mm; sourceTree = "SOURCE_ROOT"; };
+		FFF3EDCEFF3D1D1EAFF7224B = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JucePluginCharacteristics.h; path = ../../JuceLibraryCode/JucePluginCharacteristics.h; sourceTree = "SOURCE_ROOT"; };
+		741B9211353F3E07972CA7E8 = { isa = PBXGroup; children = (
+				C4826272EC3D5954FC762A79,
+				EFA96C7DEFC2EF15FFBBB765,
+				4C7A3FB475947F448638DF71,
+				859F23DFE2113C0B27E66FAD ); name = Source; sourceTree = "<group>"; };
+		2A08D32AA37569CC7DE747B5 = { isa = PBXGroup; children = (
+				741B9211353F3E07972CA7E8 ); name = BrocoliPlayer; sourceTree = "<group>"; };
+		C77A53531045360BBF41C0C5 = { isa = PBXGroup; children = (
+				4791701E943C4D6943609026,
+				E93B4A9D9928ACB492EFD96F ); name = "Juce VST Wrapper"; sourceTree = "<group>"; };
+		D35114469F60E390FAFD2188 = { isa = PBXGroup; children = (
+				756A50F3D76FCA45E078BC58,
+				3CE62790D929FEA5458430B7,
+				414878433445C2B3A5448F14,
+				8A6F414E413044E789380353,
+				D3851A4A5E1CB70A5D1B87A3,
+				1DACD3456B073A3D31FF0AE3,
+				FFF3EDCEFF3D1D1EAFF7224B ); name = "Juce Library Code"; sourceTree = "<group>"; };
+		97CF842AE3DC17CDCBF126A9 = { isa = PBXGroup; children = (
+				91D09A69E890EE3BC010CC27 ); name = Resources; sourceTree = "<group>"; };
+		BA7E3AFFCA45CAB63B5ED1FB = { isa = PBXGroup; children = (
+				02A0F29D751F4974043BC949,
+				946A0AAD78CCD10604D431D9,
+				A231819D521D470BBCF437DB,
+				2629DFC8362DC65A7CB0AE51,
+				4E560301543BC9F87AE491CC,
+				D0D9250307FA3D8AA2F28FD6,
+				556DF3ECEE3A91522751B421 ); name = Frameworks; sourceTree = "<group>"; };
+		C583077B298525FD15432557 = { isa = PBXGroup; children = (
+				CFEC2C67A779A43C00730999 ); name = Products; sourceTree = "<group>"; };
+		AD4C5CD471B0DA57207C15BF = { isa = PBXGroup; children = (
+				2A08D32AA37569CC7DE747B5,
+				C77A53531045360BBF41C0C5,
+				D35114469F60E390FAFD2188,
+				97CF842AE3DC17CDCBF126A9,
+				BA7E3AFFCA45CAB63B5ED1FB,
+				C583077B298525FD15432557 ); name = Source; sourceTree = "<group>"; };
+		8B9EEE94ADE7949B2F46B3E8 = { isa = XCBuildConfiguration; buildSettings = {
+				PREBINDING = NO;
+				HEADER_SEARCH_PATHS = "~/SDKs/vstsdk2.4 $(inherited)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				WRAPPER_EXTENSION = component;
+				GENERATE_PKGINFO_FILE = YES;
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				OTHER_LDFLAGS = "-bundle";
+				ONLY_ACTIVE_ARCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+				"_DEBUG=1",
+				"DEBUG=1",
+				"JUCE_ObjCExtraSuffix=brZ5sg",
+				"JUCER_XCODE_IPHONE_5BC26AE3=1"); }; name = Debug; };
+		143A7707D75F3A7535A232B0 = { isa = XCBuildConfiguration; buildSettings = {
+				PREBINDING = NO;
+				HEADER_SEARCH_PATHS = "~/SDKs/vstsdk2.4 $(inherited)";
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				WRAPPER_EXTENSION = component;
+				GENERATE_PKGINFO_FILE = YES;
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				OTHER_LDFLAGS = "-bundle";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+				"_NDEBUG=1",
+				"NDEBUG=1",
+				"JUCE_ObjCExtraSuffix=brZ5sg",
+				"JUCER_XCODE_IPHONE_5BC26AE3=1"); }; name = Release; };
+		06EC36C19CEAAA743E31B78C = { isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				WARNING_CFLAGS = -Wreorder;
+				GCC_MODEL_TUNING = G5;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				PRODUCT_NAME = "BrocoliPlayer"; }; name = Debug; };
+		F962E93C65A1BC09631FC990 = { isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				WARNING_CFLAGS = -Wreorder;
+				GCC_MODEL_TUNING = G5;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				PRODUCT_NAME = "BrocoliPlayer"; }; name = Release; };
+		B16591E708B5CF60B09F945A = { isa = XCConfigurationList; buildConfigurations = (
+				06EC36C19CEAAA743E31B78C,
+				F962E93C65A1BC09631FC990 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		5997AE22E81989B75FAFB94D = { isa = XCConfigurationList; buildConfigurations = (
+				8B9EEE94ADE7949B2F46B3E8,
+				143A7707D75F3A7535A232B0 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		34D6BF1A5150AC69BDE02D12 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (  ); runOnlyForDeploymentPostprocessing = 0; };
+		006DAC79105CB6C627F262BF = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				7A6F88B31E54AD87146A49D9,
+				4018D5769CCA0D397ADB03D3,
+				B2DCF365029E6DBB6CE79ED8,
+				E0FA930C6977BC1FCA626BE7,
+				B9344044CEE956359C49A73F,
+				B5CB50E59AA42D4DC71EEB3A,
+				C1516176767FF455F1F32F35,
+				CDF87117523BBA6D2BD86340 ); runOnlyForDeploymentPostprocessing = 0; };
+		B582DCC2F948F1DEA0D450B0 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+				CCE160E2D998CE22342A9BBB,
+				F06B54570EDA78695B736645,
+				186672975D08CFE741E31B71,
+				B21546F78D34F0180E3AC9C1,
+				BCB2DB0B82BCC9710D436631,
+				88ED89E3C466F89469534B49,
+				A4242F728EBC18D92114179E ); runOnlyForDeploymentPostprocessing = 0; };
+		26CCBFE1262C015376C2E18C = { isa = PBXShellScriptBuildPhase; buildActionMask = 2147483647; files = (  ); runOnlyForDeploymentPostprocessing = 0; name = "Copy to the different plugin folders"; shellPath = /bin/sh; shellScript = "\n# This script takes the build product and copies it to the AU, VST, and RTAS folders, depending on \n# which plugin types you've built\n\noriginal=$CONFIGURATION_BUILD_DIR/$FULL_PRODUCT_NAME\n\n# this looks inside the binary to detect which platforms are needed.. \ncopyAU=`nm -g \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH\" | grep -i 'AudioUnit' | wc -l`\ncopyVST=`nm -g \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH\" | grep -i 'VSTPlugin' | wc -l`\ncopyRTAS=`nm -g \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH\" | grep -i 'CProcess' | wc -l`\n\nif [ $copyAU -gt 0 ]; then\n  echo \"Copying to AudioUnit folder...\"\n  AU=~/Library/Audio/Plug-Ins/Components/$PRODUCT_NAME.component\n  if [ -d \"$AU\" ]; then \n    rm -r \"$AU\"\n  fi\n\n  cp -r \"$original\" \"$AU\"\n  sed -i \"\" -e 's/TDMwPTul/BNDLPTul/g' \"$AU/Contents/PkgInfo\"\n  sed -i \"\" -e 's/TDMw/BNDL/g' \"$AU/Contents/$INFOPLIST_FILE\"\nfi\n\nif [ $copyVST -gt 0 ]; then\n  echo \"Copying to VST folder...\"\n  VST=~/Library/Audio/Plug-Ins/VST/$PRODUCT_NAME.vst\n  if [ -d \"$VST\" ]; then \n    rm -r \"$VST\"\n  fi\n\n  cp -r \"$original\" \"$VST\"\n  sed -i \"\" -e 's/TDMwPTul/BNDLPTul/g' \"$VST/Contents/PkgInfo\"\n  sed -i \"\" -e 's/TDMw/BNDL/g' \"$VST/Contents/$INFOPLIST_FILE\"\nfi\n\nif [ $copyRTAS -gt 0 ]; then\n  echo \"Copying to RTAS folder...\"\n  RTAS=/Library/Application\\ Support/Digidesign/Plug-Ins/$PRODUCT_NAME.dpm\n  if [ -d \"$RTAS\" ]; then\n    rm -r \"$RTAS\"\n  fi\n\n  cp -r \"$original\" \"$RTAS\"\nfi\n"; };
+		899E26D5AECB15FCD15FCD7D = { isa = PBXNativeTarget; buildConfigurationList = 5997AE22E81989B75FAFB94D; buildPhases = (
+				34D6BF1A5150AC69BDE02D12,
+				006DAC79105CB6C627F262BF,
+				B582DCC2F948F1DEA0D450B0,
+				26CCBFE1262C015376C2E18C ); buildRules = ( ); dependencies = ( ); name = BrocoliPlayer; productName = BrocoliPlayer; productReference = CFEC2C67A779A43C00730999; productInstallPath = "$(HOME)/Library/Audio/Plug-Ins/Components/"; productType = "com.apple.product-type.bundle"; };
+		8348C82E9FD133ED4D54F2D5 = { isa = PBXProject; buildConfigurationList = B16591E708B5CF60B09F945A; compatibilityVersion = "Xcode 3.1"; hasScannedForEncodings = 0; mainGroup = AD4C5CD471B0DA57207C15BF; projectDirPath = ""; projectRoot = ""; targets = ( 899E26D5AECB15FCD15FCD7D ); };
+	};
+	rootObject = 8348C82E9FD133ED4D54F2D5;
+}
